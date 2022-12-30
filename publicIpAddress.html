@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+</head>
+
+<body>
+    
+    <div class="container">
+        <h3 id="ip">MY Public IP ADDRESS :</h3>
+        <div class="lable">
+            <div id="let">Let:</div>
+            <div id="city">City:</div>
+            <div id="org">Organisation:</div>
+            <div id="long">Long:</div>
+            <div id="reg">Region:</div>
+            <div id="hostname">Hostname:</div>
+        </div>
+    </div>
+    <div class="map">
+        <iframe src="https://maps.google.com/maps?q=22.0787, 82.1519&z=15&output=embed" width="100%" height="270"
+            frameborder="0" style="border:0">
+        </iframe>
+    </div>
+    <div class="container2">
+        <div class="lable2">
+            <div id="timezone">TimeZone :</div>
+            <div id="date&time">Date and Time :</div>
+            <div id="zip">Pincode :</div>
+            <div id="msg">Message : Number of pincode(s) found:</div>
+        </div>
+    </div>
+    <div >
+        <input type="text" placeholder="Filter" id="filter" onkeyup="searchFun()"> 
+    </div>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <p id="name">Name</p>
+            <p id="branch">Branch Type</p>
+            <p id="delivery">Delivery Status</p>
+            <p id="district">District</p>
+            <p id="division">Division</p>
+        </div>
+    </div><br>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <p id="name1">Name</p>
+            <p id="branch1">Branch Type</p>
+            <p id="delivery1">Delivery Status</p>
+            <p id="district1">District</p>
+            <p id="division1">Division</p>
+        </div>
+    </div>
+    <br>
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <p id="name2">Name</p>
+            <p id="branch2">Branch Type</p>
+            <p id="delivery2">Delivery Status</p>
+            <p id="district2">District</p>
+            <p id="division2">Division</p>
+        </div>
+    </div>
+    <script src="ipaddress.js"></script>
+</body>
+
+</html>
